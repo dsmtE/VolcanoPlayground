@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://d13d1h8afx128"]
 
 [ext_resource type="Texture2D" uid="uid://bxwxfhbon3fxn" path="res://Assets/Simple Top Down Forest/GrassNDirt.png" id="1_gcpg2"]
-[ext_resource type="PackedScene" uid="uid://dmkjeedu4hwjp" path="res://Characters/Adventurer.tscn" id="1_prauu"]
+[ext_resource type="PackedScene" uid="uid://cc8hcautcd7k7" path="res://Characters/Adventurer.tscn" id="1_prauu"]
 [ext_resource type="Texture2D" uid="uid://d2vmmexvsi1u4" path="res://Assets/Simple Top Down Forest/Cliff.png" id="2_uc75r"]
 [ext_resource type="Shader" path="res://Shaders/distortion.gdshader" id="5_1lc4j"]
 [ext_resource type="Texture2D" uid="uid://b1c336kbjkax3" path="res://Assets/Simple Top Down Forest/Trees.png" id="5_kg7ek"]
@@ -259,7 +259,6 @@ size = Vector2(5.46359, 14.5)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(336, 356)
-current = true
 zoom = Vector2(5, 5)
 position_smoothing_enabled = true
 

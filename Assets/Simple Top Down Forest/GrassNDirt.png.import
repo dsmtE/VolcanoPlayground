@@ -3,22 +3,22 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxwxfhbon3fxn"
-path="res://.godot/imported/GrassNDirt.png-494fe44a28fd9482a39c4d1b9a3b3c95.ctex"
+path="res://.godot/imported/GrassNDirt.png-373b16fef7c40b960a552af8d3aa9e42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Simple Top Down Forest/GrassNDirt.png"
-dest_files=["res://.godot/imported/GrassNDirt.png-494fe44a28fd9482a39c4d1b9a3b3c95.ctex"]
+source_file="res://Assets/Simple Top Down Forest/GrassNDirt.png"
+dest_files=["res://.godot/imported/GrassNDirt.png-373b16fef7c40b960a552af8d3aa9e42.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

@@ -3,22 +3,22 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvigp84jo6815"
-path="res://.godot/imported/RocksnStumps.png-4099fa2ba6803f9d125976468d0a4e6e.ctex"
+path="res://.godot/imported/RocksnStumps.png-e9e812f6a6e9af5d5e0f804a8cd0d6e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Simple Top Down Forest/RocksnStumps.png"
-dest_files=["res://.godot/imported/RocksnStumps.png-4099fa2ba6803f9d125976468d0a4e6e.ctex"]
+source_file="res://Assets/Simple Top Down Forest/RocksnStumps.png"
+dest_files=["res://.godot/imported/RocksnStumps.png-e9e812f6a6e9af5d5e0f804a8cd0d6e4.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

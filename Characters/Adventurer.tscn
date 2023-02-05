@@ -1,7 +1,7 @@
 [gd_scene load_steps=22 format=3 uid="uid://cc8hcautcd7k7"]
 
 [ext_resource type="Script" path="res://Characters/Adventurer.gd" id="1_ndknf"]
-[ext_resource type="Texture2D" uid="uid://cynxw7yxlxsbi" path="res://assets/adventurer-v1.5-Sheet.png" id="3_f43bq"]
+[ext_resource type="Texture2D" uid="uid://cynxw7yxlxsbi" path="res://Assets/adventurer-v1.5-Sheet.png" id="3_f43bq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_06tw7"]
 size = Vector2(19, 11)

@@ -3,22 +3,22 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1c336kbjkax3"
-path="res://.godot/imported/Trees.png-a869fae6961a8934d167a7c1ce6566de.ctex"
+path="res://.godot/imported/Trees.png-2797edd1fe37063d857ff2ec10a0d051.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Simple Top Down Forest/Trees.png"
-dest_files=["res://.godot/imported/Trees.png-a869fae6961a8934d167a7c1ce6566de.ctex"]
+source_file="res://Assets/Simple Top Down Forest/Trees.png"
+dest_files=["res://.godot/imported/Trees.png-2797edd1fe37063d857ff2ec10a0d051.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

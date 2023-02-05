@@ -3,22 +3,22 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cynxw7yxlxsbi"
-path="res://.godot/imported/adventurer-v1.5-Sheet.png-728f65bb66e120681373c910575da3f0.ctex"
+path="res://.godot/imported/adventurer-v1.5-Sheet.png-c14578d747f41bf345d2eb469174a09f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/adventurer-v1.5-Sheet.png"
-dest_files=["res://.godot/imported/adventurer-v1.5-Sheet.png-728f65bb66e120681373c910575da3f0.ctex"]
+source_file="res://Assets/adventurer-v1.5-Sheet.png"
+dest_files=["res://.godot/imported/adventurer-v1.5-Sheet.png-c14578d747f41bf345d2eb469174a09f.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

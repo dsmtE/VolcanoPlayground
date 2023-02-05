@@ -3,22 +3,22 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2vmmexvsi1u4"
-path="res://.godot/imported/Cliff.png-905406874dd1e3ad3abc4dd9c2a12da3.ctex"
+path="res://.godot/imported/Cliff.png-4798c98bbfa37d6aea39be9ad3ebc659.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Simple Top Down Forest/Cliff.png"
-dest_files=["res://.godot/imported/Cliff.png-905406874dd1e3ad3abc4dd9c2a12da3.ctex"]
+source_file="res://Assets/Simple Top Down Forest/Cliff.png"
+dest_files=["res://.godot/imported/Cliff.png-4798c98bbfa37d6aea39be9ad3ebc659.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

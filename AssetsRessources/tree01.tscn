@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://bnod2phk1v45r"]
+
+[ext_resource type="Shader" path="res://Shaders/distortion.gdshader" id="1_8jlfg"]
+[ext_resource type="Texture2D" uid="uid://dd3ecm7fmiteo" path="res://AssetsRessources/tree01.tres" id="2_kgatk"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_54c85"]
+shader = ExtResource("1_8jlfg")
+shader_parameter/noise_strength = 0.007
+shader_parameter/noise_scale = 20.0
+shader_parameter/wind_speed = 0.2
+shader_parameter/rect_info = Vector4(81, 12, 80, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_73dto"]
+size = Vector2(5.46359, 14.5)
+
+[node name="TreeSprite" type="Sprite2D"]
+z_index = 2
+material = SubResource("ShaderMaterial_54c85")
+position = Vector2(203, 379)
+scale = Vector2(1.00667, 1)
+texture = ExtResource("2_kgatk")
+offset = Vector2(0, -32)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-0.745026, 7.25)
+shape = SubResource("RectangleShape2D_73dto")

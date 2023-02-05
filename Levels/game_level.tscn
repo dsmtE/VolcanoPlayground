@@ -1,10 +1,9 @@
-[gd_scene load_steps=11 format=3 uid="uid://d13d1h8afx128"]
+[gd_scene load_steps=8 format=3 uid="uid://d13d1h8afx128"]
 
 [ext_resource type="Texture2D" uid="uid://bxwxfhbon3fxn" path="res://Assets/Simple Top Down Forest/GrassNDirt.png" id="1_gcpg2"]
 [ext_resource type="PackedScene" uid="uid://cc8hcautcd7k7" path="res://Characters/Adventurer.tscn" id="1_prauu"]
 [ext_resource type="Texture2D" uid="uid://d2vmmexvsi1u4" path="res://Assets/Simple Top Down Forest/Cliff.png" id="2_uc75r"]
-[ext_resource type="Shader" path="res://Shaders/distortion.gdshader" id="5_1lc4j"]
-[ext_resource type="Texture2D" uid="uid://b1c336kbjkax3" path="res://Assets/Simple Top Down Forest/Trees.png" id="5_kg7ek"]
+[ext_resource type="PackedScene" uid="uid://bnod2phk1v45r" path="res://AssetsRessources/tree01.tscn" id="4_v7fdk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hbkgo"]
 texture = ExtResource("1_gcpg2")
@@ -245,16 +244,6 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_hbkgo")
 sources/1 = SubResource("TileSetAtlasSource_oxb5u")
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_54c85"]
-shader = ExtResource("5_1lc4j")
-shader_parameter/noise_strength = 0.015
-shader_parameter/noise_scale = 20.0
-shader_parameter/wind_speed = 0.2
-shader_parameter/rect_info = Vector4(81, 12, 80, 100)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_73dto"]
-size = Vector2(5.46359, 14.5)
-
 [node name="GameLevel" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -285,18 +274,4 @@ position = Vector2(336, 356)
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="YSort/Adventurer"]
 remote_path = NodePath("../../../Camera2D")
 
-[node name="TreeSprite" type="Sprite2D" parent="YSort"]
-z_index = 2
-material = SubResource("ShaderMaterial_54c85")
-position = Vector2(203, 379)
-scale = Vector2(1.00667, 1)
-texture = ExtResource("5_kg7ek")
-offset = Vector2(0, -32)
-region_enabled = true
-region_rect = Rect2(81, 12, 80, 100)
-
-[node name="StaticBody2D" type="StaticBody2D" parent="YSort/TreeSprite"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="YSort/TreeSprite/StaticBody2D"]
-position = Vector2(-0.745026, 7.25)
-shape = SubResource("RectangleShape2D_73dto")
+[node name="TreeSprite" parent="YSort" instance=ExtResource("4_v7fdk")]

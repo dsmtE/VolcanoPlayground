@@ -1,7 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://bnod2phk1v45r"]
+[gd_scene load_steps=5 format=3]
 
 [ext_resource type="Shader" path="res://Shaders/distortion.gdshader" id="1_8jlfg"]
-[ext_resource type="Texture2D" uid="uid://dd3ecm7fmiteo" path="res://AssetsRessources/tree01.tres" id="2_kgatk"]
+[ext_resource type="Texture2D" uid="uid://dd3ecm7fmiteo" path="res://AssetsRessources/grass01.tres" id="2_kgatk"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_54c85"]
 shader = ExtResource("1_8jlfg")

@@ -1,7 +1,7 @@
-[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dd3ecm7fmiteo"]
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://db1ld7q7d7h8n"]
 
-[ext_resource type="Texture2D" uid="uid://b1c336kbjkax3" path="res://Assets/Simple Top Down Forest/Trees.png" id="1_n03v5"]
+[ext_resource type="Texture2D" uid="uid://b1c336kbjkax3" path="res://Assets/Simple Top Down Forest/Trees.png" id="1_sw5xk"]
 
 [resource]
-atlas = ExtResource("1_n03v5")
+atlas = ExtResource("1_sw5xk")
 region = Rect2(81, 12, 80, 100)
